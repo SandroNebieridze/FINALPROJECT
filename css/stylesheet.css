@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype'),
+        url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tilt Prism';
+    src: url('../fonts/TiltPrism-Regular.eot');
+    src: url('../fonts/TiltPrism-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiltPrism-Regular.woff2') format('woff2'),
+        url('../fonts/TiltPrism-Regular.woff') format('woff'),
+        url('../fonts/TiltPrism-Regular.ttf') format('truetype'),
+        url('../fonts/TiltPrism-Regular.svg#TiltPrism-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barriecito';
+    src: url('../fonts/Barriecito-Regular.eot');
+    src: url('../fonts/Barriecito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Barriecito-Regular.woff2') format('woff2'),
+        url('../fonts/Barriecito-Regular.woff') format('woff'),
+        url('../fonts/Barriecito-Regular.ttf') format('truetype'),
+        url('../fonts/Barriecito-Regular.svg#Barriecito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur-Regular.eot');
+    src: url('../fonts/Tektur-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur-Regular.woff2') format('woff2'),
+        url('../fonts/Tektur-Regular.woff') format('woff'),
+        url('../fonts/Tektur-Regular.ttf') format('truetype'),
+        url('../fonts/Tektur-Regular.svg#Tektur-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
