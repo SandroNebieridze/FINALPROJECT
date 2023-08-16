@@ -1,0 +1,52 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding: 30px 5%;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header_ul{
+    display: flex;
+    gap: 55px;
+}
+.list{
+    font-size: 25px;
+    font-family: 'Tektur', cursive;
+    color: beige;
+}
+.search{
+    width: 15%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar{
+    width: 80%;
+    border: 3px solid rgb(224, 217, 217);
+    padding: 5px 5px;
+    border-radius: 30px;
+    color: antiquewhite;
+    
+    
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+}
+.fa-user{
+    font-size: 30px;
+    color: antiquewhite;
+}
+.list:hover{
+    font-size: 30px;
+    text-shadow: 1px 1px 15px cornsilk;
+}
+.fa-user:hover{
+    text-shadow: 1px 1px 15px cornsilk; 
+}
