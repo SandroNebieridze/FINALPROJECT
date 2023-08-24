@@ -1,8 +1,11 @@
+@import url(variable.css);
+
 .container{
     max-width: 1920px;
     width: 100%;
     margin: auto;
     padding-top: 146px;
+    background-color: rgb(19, 18, 18);
 }
 
 /* header */
@@ -18,6 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: inset -1px -1px 7px 1px rgb(155, 33, 236);
    }
 .header_ul{
     display: flex;
@@ -25,7 +29,7 @@ header{
 }
 .list{
     font-size: 25px;
-    font-family: 'Tektur', cursive;
+    font-family: var(--listfont);
     color: beige;
 }
 .search{
@@ -69,12 +73,12 @@ header{
     display: flex;
     align-items: center;
     gap: 100px;
-     
+     border-radius: 30px;
+     margin-top: 40px;
 }
 
 .section_cover_txt{
     width: 35%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,11 +86,11 @@ header{
 
 .cover_title{
     font-size: 40px;
-    font-family: 'Barriecito', cursive;
+    font-family: var(--titlefont);
 }
 .cover_txt{
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--textfont);
     font-weight: 600;
      margin-top: 40px;
     text-align: center;
@@ -107,10 +111,72 @@ header{
 }
     .shopnowtxt{
         font-size: 20px;
-        font-family: 'Raleway', sans-serif;
+        font-family: var(--listfont);
         font-weight: 600;
         text-align: center;
        
     }
 
+    /* section monthly best sellers */
+  .monthybestseller_section{
+    padding: 40px 4%;
+  }  
+  .monthlybestsell{
+    font-family: var(--titlefont);
+    color: beige;
+    font-size: 40px;
+   margin: 150px 0 50px;
+  }
+  .cards{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .card{
+    padding: 10px;
+    border: 3px solid beige;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition-duration: 1s;
+  }
+    .card_txts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
+     
+     .card:hover{
+        background-color: beige;
+        scale: 1.1;
+     }
+     .card_image{
+        width: 100%;
+       
+     }
+ .best_seller_author{
+    font-family: var(--titlefont);
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(19, 18, 18);
+ }
+ .album_name{
+    font-family: var(--textfont);
+    font-size: 17px;
+    color: rgb(19, 18, 18);
+    font-weight: 600;
+ }
+    
+
+    
+
+   
+ 
+    
+  
+  
