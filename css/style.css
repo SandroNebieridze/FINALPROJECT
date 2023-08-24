@@ -130,10 +130,14 @@ header{
   .cards{
     margin: auto;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
+    flex-direction: column;
+     gap: 30px;
   }
+  .first5cards,.secondfivecards{
+    display: flex;
+    justify-content: space-between;
+    }
+
   .card{
     padding: 10px;
     border: 3px solid beige;
@@ -172,7 +176,6 @@ header{
     font-weight: 600;
  }
     
-
     
 
    
