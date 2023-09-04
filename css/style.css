@@ -662,6 +662,8 @@ footer {
     width: 100%;
 }
 
+
+/* SALE SECTION */
 .categories{
     font-size: var(--titlefontsize);
     font-family: var(--titlefont);
@@ -674,31 +676,34 @@ footer {
    font-size: var(--categoriestitle);
     font-family: var(--titlefont);
     color: var(--maincolor);
-    margin-left: 3%;
+    margin-left: 4%;
     margin-bottom: 20px;
     
 
 }
 
 
-.sale_categories{
-    width: 80%;
-    margin: auto;
+.sales_section{
+    width: 75%;
+    margin: 0px auto 30px;
     display: flex;
     flex-direction: column;
+
 }
 .categories_cards{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 .categories_card{
-    width: 18%;
+    width: 22%;
     
-    padding: 0 5px 5px 5px;
+    padding: 5px;
     background-image:var(--categoriescardcolor);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
 }
 .categories_card:hover{
@@ -709,12 +714,29 @@ footer {
     height: 200px;
     object-fit: cover;
 }
-
+.categories_author{
+    font-family: var(--titlefont);
+    color: var(--maincolor);
+    font-size: var(--textfontsize);
+}
+.price_categories{
+    font-family: var(--listfont);
+    font-weight: 600;
+    color: var(--maincolor);
+}
+.categories_album{
+    font-family: var(--textfont);
+    color: var(--maincolor);
+    font-size: 17px;
+    font-weight: 600;
+}
 .price_sale{
     font-family: var(--listfont);
     font-weight: 600;
+    color: var(--maincolor);
     text-decoration: line-through;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 2px;
+    
     align-self: flex-start;
 }
 .addtocart{
@@ -727,4 +749,10 @@ footer {
 .addtocart:hover{
     box-shadow: 1px 1px 10px 3px  var(--maincolordark);
 }
+.jazz_section{
+    width: 75%;
+    margin: 0px auto 30px;
+    display: flex;
+    flex-direction: column;
 
+}
