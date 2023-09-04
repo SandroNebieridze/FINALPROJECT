@@ -1,7 +1,19 @@
-:root{
-    --titlefont:  'Barriecito', cursive;
-    --textfont:  'Raleway', sans-serif;
+:root {
+    --titlefont: 'Barriecito', cursive;
+    --textfont: 'Raleway', sans-serif;
     --listfont: 'Tektur', cursive;
-    
+     --maincolor: beige;
+    --headercolor: linear-gradient(to bottom, rgb(107, 4, 90), rgb(175, 112, 76));
+    --maincolorblend: linear-gradient(to bottom right, rgb(107, 4, 90), rgb(175, 112, 76));
+    --maincolordark: rgb(19, 18, 18);
+    --titlefontsize: 40px;
+    --textfontsize: 20px;
+    --footercolor: linear-gradient(to top, rgb(107, 4, 90), rgb(175, 112, 76));
+    --categoriestitle: 30px;
+    --albumfontsize: 17px:
 
+  
+}
+:root{
+    --categoriescardcolor:linear-gradient(rgb(206, 3, 3), rgb(206, 206, 9));
 }
