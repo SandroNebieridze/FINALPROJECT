@@ -1,0 +1,90 @@
+@media (max-width:1200px){
+    .subscribe{
+    width: 75%;
+        grid-template-rows: 250px  240px 260px;
+        grid-template-columns:  1.2fr 1fr 1fr;
+        grid-template-areas: "div1 div2 div3 "
+            "div1 div5 div6  " "div8 div9 div9 div10 "
+        ;
+        
+    }
+    .div_help_center_div{
+        width: 50%;
+    }
+    .footer_logo{
+        width: 120px;
+    }
+    .footer_contact_div{
+        width: 25%;
+    }
+}
+@media (max-width:1150px){
+    
+    .search_bar_form{
+        display: none;
+    }
+    .search_user{
+        width: 6%;
+    }
+    .hidden_search_div{
+        display: block;
+        margin-left: 50%;
+    }
+     .indexpagetxt{
+        width: 70%;
+    }
+    .card{
+        width: 23%;
+    }
+    .card5, .card10{
+        display: none;
+    }
+    .monthlysellVector{
+        display: block;
+    }
+    .monthybestseller_section{
+        justify-content: space-between;
+    }
+    :root{
+        --textfontsize: 16px;
+        --titlefontsize: 35px;
+    }
+    .just_added_card5{
+        display: none;
+    }
+    .just_added_card{
+        width: 24%;
+    }
+    .price{
+        font-size: 14px;
+    }
+    .about_us{
+        width: 80%;
+    }
+    
+
+}
+
+@media (max-width:1050px){
+    .header_ul{
+        gap:40px
+    }
+    .mainlogoimg{
+        width: 170px;
+        height: 65px;
+    }
+    .monthlybestsell{
+        margin: 30px 0;
+    }
+    .about_us{
+        width: 80%;
+    }
+    .about_us_P{
+        width: 32%;
+    }
+    .about_us_PP{
+        font-size: 16px;
+    }
+   
+    
+}

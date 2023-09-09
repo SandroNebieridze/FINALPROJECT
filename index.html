@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/803c8330e5.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/tab logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bigscreen.css">
+    <link rel="stylesheet" href="css/smalltablet.css">
     <title>Home</title>
 </head>
 
@@ -17,9 +19,11 @@
         <!-- header -->
 
         <header>
-            <a href="index.html"><img src="images/Logo.avif" alt="Logo"></a>
 
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            <a href="index.html"><img class="mainlogoimg" src="images/Logo.avif" alt="Logo"></a>
+
+            <nav class="header_nav">
                 <ul class="header_ul">
                     <li><a href="index.html" class="list active">Home</a></li>
                     <li><a href="Categories.html" class="list inactive">Categories</a></li>
@@ -40,16 +44,30 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
             </div>
+
+
+
         </header>
 
 
         <!-- section   -->
 
-        <section class="cover">
 
-            <div class="section_cover_txt">
-                <h2 class="cover_title">THE SOUND OF VINYL</h2>
-                <p class="cover_txt">Music sets a tone, impacts a mood, connects people, documents history, influences
+        <section class="indexpagetxt">
+
+            <div class="hidden_search_div">
+                <form class="hidden_search" action="">
+                    <input class="hidden_search_input" type="search" name="search"
+                        placeholder="What are you looking for?">
+                    <input class="search_button_hidden" type="image" src="images/charm_search.svg" name="" id="">
+                </form>
+            </div>
+
+
+            <div class="indexpageTXT">
+                <h2 class="indexpage_title">THE SOUND OF VINYL</h2>
+                <p class="indexpage_txt">Music sets a tone, impacts a mood, connects people, documents history,
+                    influences
                     culture, and simply makes life better! At The Sound of Vinyl, we've long-proclaimed the superiority
                     of music on vinyl, and we're here to make your collection look and sound better than ever. Our
                     fandom is serious, but we don't take ourselves too seriously...</p>
@@ -65,9 +83,11 @@
         </section>
 
         <!-- section monthly best sellers -->
-
+        <h2 class="monthlybestsell">Monthly Best Sellers</h2>
         <section class="monthybestseller_section">
-            <h2 class="monthlybestsell">Monthly Best Sellers</h2>
+            
+            <!-- <i class="fa-solid fa-backward monthlysellVector"></i> -->
+            
             <div class="cards">
 
                 <div class="first5cards">
@@ -89,7 +109,7 @@
                         </div>
                     </div>
                     <!-- card3 -->
-                    <div class="card">
+                    <div class="card card3">
                         <img src="images/TPAB med.avif" alt="" class="card_image">
                         <div class="card_txts">
                             <h4 class="best_seller_author">Kendrick Lamar</h4>
@@ -97,7 +117,7 @@
                         </div>
                     </div>
                     <!-- card4 -->
-                    <div class="card">
+                    <div class="card card4">
                         <img src="images/the dark side of the moon med.avif" alt="" class="card_image">
                         <div class="card_txts">
                             <h4 class="best_seller_author">Pink Floyd</h4>
@@ -133,7 +153,7 @@
 
                     </div>
                     <!-- card8 -->
-                    <div class="card">
+                    <div class="card card8">
                         <img src="images/Starboy_medium.avif" alt="" class="card_image">
                         <div class="card_txts">
                             <h4 class="best_seller_author">The Weeknd</h4>
@@ -141,7 +161,7 @@
                         </div>
                     </div>
                     <!-- card9 -->
-                    <div class="card">
+                    <div class="card card9">
                         <img src="images/04_MarvinGaye-What_sGoingOn1LP_medium.avif" alt="" class="card_image">
                         <div class="card_txts">
                             <h4 class="best_seller_author">Marvin Gaye</h4>
@@ -158,9 +178,10 @@
                     </div>
                 </div>
 
-                
+
 
             </div>
+            <!-- <i class="fa-solid fa-forward monthlysellVector"></i> -->
         </section>
 
 
@@ -207,7 +228,7 @@
             <h2 class="justadded_title">Just Came In</h2>
 
             <div class="vector_cards">
-                <i class="fa-solid fa-forward left_vector"></i>
+                <i class="fa-solid fa-backward"></i>
                 <div class="justadded_cards">
                     <div class="just_added_card">
                         <img src="images/72 seasons metallica.avif" alt="" class="justaddimg">
@@ -234,7 +255,7 @@
                     </div>
 
 
-                    <div class="just_added_card">
+                    <div class="just_added_card just_added_card3">
                         <img src="images/damn_medium.avif" alt="" class="justaddimg">
                         <h4 class="best_seller_author">Kendrick Lamar</h4>
                         <p class="album_name">"DAMN."</p>
@@ -246,7 +267,7 @@
                     </div>
 
 
-                    <div class="just_added_card">
+                    <div class="just_added_card just_added_card4">
                         <img src="images/aerosmithmed.avif" alt="" class="justaddimg">
                         <h4 class="best_seller_author">Aerosmith</h4>
                         <p class="album_name">"Nine Lives"</p>
@@ -256,7 +277,7 @@
                         </div>
 
                     </div>
-                    <div class="just_added_card">
+                    <div class="just_added_card just_added_card5">
                         <img src="images/ericclaptonmid.webp" alt="" class="justaddimg">
                         <h4 class="best_seller_author">Eric Clapton</h4>
                         <p class="album_name">"Nothing But the Blues"</p>
@@ -315,68 +336,71 @@
         <!-- footer -->
 
         <footer>
+            .<img class="footer_logo footerlogo_hidden" src="images/vinyl-record-svgrepo-com.svg" alt="">
 
-            <div class="socials_txts">
-
-
-                <nav class="footer_nav">
-                    <ul class="footer_ul">
-                        <li><a href="" class="footer_list">Help Center</a></li>
-                        <li><a href="" class="footer_list">FAQ</a></li>
-                        <li><a href="" class="footer_list">Return Policy</a></li>
-                        <li><a href="" class="footer_list">Privacy Policy</a></li>
-                        <li><a href="contact.html" class="footer_list">Terms of Use</a></li>
-                    </ul>
-                </nav>
+            <div class="low_resolution_footer">
+                <div class="socials_txts">
 
 
-                <div class="socials">
-                    <h3 class="social_title">Follow US</h3>
-                    <div class="SOCIALS">
-                        <a target="_blank" href="https://www.facebook.com/">
-                            <img class="social_logo"  src="images/logos_facebook.svg" alt="facebooklogo">
-                        </a>
-                        <a target="_blank" href="https://www.instagram.com/">
-                            <img class="social_logo"  src="images/skill-icons_instagram.svg" alt="instagramlogo">
-                        </a>
-                        <a target="_blank" href="https://www.youtube.com/">
-                            <img class="social_logo" src="images/logos_youtube.svg" alt="youtubelogo">
-                        </a>
+                    <nav class="footer_nav">
+                        <ul class="footer_ul">
+                            <li><a href="" class="footer_list">Help Center</a></li>
+                            <li><a href="" class="footer_list">FAQ</a></li>
+                            <li><a href="" class="footer_list">Return Policy</a></li>
+                            <li><a href="" class="footer_list">Privacy Policy</a></li>
+                            <li><a href="contact.html" class="footer_list">Terms of Use</a></li>
+                        </ul>
+                    </nav>
+    
+    
+                    <div class="socials">
+                        <h3 class="social_title">Follow US</h3>
+                        <div class="SOCIALS">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <img class="social_logo" src="images/logos_facebook.svg" alt="facebooklogo">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <img class="social_logo" src="images/skill-icons_instagram.svg" alt="instagramlogo">
+                            </a>
+                            <a target="_blank" href="https://www.youtube.com/">
+                                <img class="social_logo" src="images/logos_youtube.svg" alt="youtubelogo">
+                            </a>
+                        </div>
                     </div>
                 </div>
+    
+                <img class="footer_logo" src="images/vinyl-record-svgrepo-com.svg" alt="">
+    
+    
+                <div class="footer_contact_div">
+                    <div class="footer_contact_DIV">
+                        <a href="tel:+123 45 67  89">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <p class="footer_P"> +123 45 67 89</p>
+    
+    
+                    </div>
+    
+                    <div class="footer_contact_DIV">
+    
+                        <a href="mailto:Soundofvinyl@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+    
+                        <p class="footer_P">Soundofvinyl@gmail.com</p>
+                    </div>
+    
+                    <div class="footer_contact_DIV">
+                        <a target="_blank"
+                            href="https://www.google.com/maps/place/534-400+W+Greenleaf+Blvd,+Compton,+CA+90220,+USA/@33.8804296,-118.2296693,16z/data=!4m15!1m8!3m7!1s0x80c2cb6b7f1d5b4d:0x56bce9a915bcb42!2sCompton,+CA,+USA!3b1!8m2!3d33.8958492!4d-118.2200712!16zL20vMHIwM2Y!3m5!1s0x80c2cb38bab34581:0x4d48d3f0ca650436!8m2!3d33.8809144!4d-118.2300035!16s%2Fg%2F11c63lks3d?entry=ttu">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </a>
+                        <p class="footer_P"> Greenleaf Blvd,Compton,CA </p>
+                    </div>
+                </div>
+    
             </div>
-
-            <img class="footer_logo" src="images/vinyl-record-svgrepo-com.svg" alt="">
-
-
-            <div class="footer_contact_div">
-                <div class="footer_contact_DIV">
-                    <a href="tel:+123 45 67  89">
-                        <i class="fa-solid fa-phone"></i>
-                    </a>
-                    <p class="footer_P"> +123 45 67 89</p>
-
-
-                </div>
-
-                <div class="footer_contact_DIV">
-
-                    <a href="mailto:Soundofvinyl@gmail.com">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-
-                    <p class="footer_P">Soundofvinyl@gmail.com</p>
-                </div>
-
-                <div class="footer_contact_DIV">
-                    <a target="_blank"
-                        href="https://www.google.com/maps/place/534-400+W+Greenleaf+Blvd,+Compton,+CA+90220,+USA/@33.8804296,-118.2296693,16z/data=!4m15!1m8!3m7!1s0x80c2cb6b7f1d5b4d:0x56bce9a915bcb42!2sCompton,+CA,+USA!3b1!8m2!3d33.8958492!4d-118.2200712!16zL20vMHIwM2Y!3m5!1s0x80c2cb38bab34581:0x4d48d3f0ca650436!8m2!3d33.8809144!4d-118.2300035!16s%2Fg%2F11c63lks3d?entry=ttu">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </a>
-                    <p class="footer_P"> Greenleaf Blvd,Compton,CA </p>
-                </div>
-            </div>
-
         </footer>
 
 
