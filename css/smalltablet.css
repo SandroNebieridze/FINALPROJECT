@@ -1,111 +1,131 @@
-@media (max-width:950px){
-    .list{
+@media (max-width:950px) {
+    .list {
         font-size: 25px;
     }
-    .mainlogoimg{
-        width: 160px;
-        height: 62 px;
-    }
-   
-    .card9, .card4{
+
+
+    .card9,
+    .card4 {
         display: none;
     }
-    .card{
+
+    .card {
         width: 31%;
     }
-    .subscribe{
+
+    .subscribe {
         width: 80%;
     }
-    .just_added_card4{
+
+    .just_added_card4 {
         display: none;
     }
-    .just_added_card{
+
+    .just_added_card {
         width: 31%;
     }
-    :root{
-       
+
+    :root {
+
         --titlefontsize: 30px;
     }
-   .about_us{
-    width: 90%;
-   }
-}
 
-@media (max-width:820px){
-.fa-bars{
-    display: block;
-}
-.header_nav{
-    display: none;
-}
-.mainlogoimg{
-    width: 170px;
-    height: 65px;
-}
-.subscribe{
-    width: 85%;
-}
-.footer_contact_div{
-    width: 30%;
-}
-.footer_logo{
-    width: 100px;
-}
-.search_user{
-    justify-content: center;
-}
-}
-
-@media (max-width:700px){
-    .card3,.card8{
-display: none;
+    .about_us {
+        width: 90%;
     }
-    .card{
+}
+
+@media (max-width:820px) {
+    .fa-bars {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .subscribe {
+        width: 85%;
+    }
+
+    .footer_contact_div {
+        width: 30%;
+    }
+
+    .footer_logo {
+        width: 100px;
+    }
+
+    .search_user {
+        justify-content: center;
+    }
+}
+
+@media (max-width:700px) {
+    .mainlogoimg {
+        width: 150px;
+    }
+
+
+    .card3,
+    .card8 {
+        display: none;
+    }
+
+    .card {
         width: 48%;
     }
-    .cards{
-       margin: 0 15px;
+
+    .cards {
+        margin: 0 15px;
     }
-    .subscribe{
+
+    .subscribe {
         width: 90%;
-        grid-template-rows:  220px 230px;
-        grid-template-columns:   1fr 1fr;
+        grid-template-rows: 220px 230px;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: "div2 div3 "
             " div5 div6  " " div9 div9  "
         ;
     }
-    .div9{
+
+    .div9 {
         padding: 5px;
     }
-    .just_added_card3{
+
+    .just_added_card3 {
         display: none;
     }
-    .just_added_card{
+
+    .just_added_card {
         width: 48%;
     }
-    footer{
+
+    footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 15px;
     }
-      .footer_logo{
+
+    .footer_logo {
         display: none;
 
-      }
-      .footerlogo_hidden{
+    }
+
+    .footerlogo_hidden {
         display: block;
-      }
-      .low_resolution_footer{
+    }
+
+    .low_resolution_footer {
         align-items: flex-start;
-        
-      }
-      .footer_contact_div{
+
+    }
+
+    .footer_contact_div {
         padding: 5px;
         width: 40%;
 
-      }
-      .mainlogoimg{
-        width: 120px;
-      }
+    }
+
 }

@@ -117,23 +117,25 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    gap: 50px;
+    justify-content: center;
+    gap: 30px;
     margin-top: 40px;
 }
-.hidden_search_div{
+/* .hidden_search_div{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     display: none;
-}
+} */
 .hidden_search{
    background-image: var(--maincolorblend);
     width: 50%;
     height: 35px;
     display: flex;
     justify-content: space-between;
+    align-self: center;
+    visibility: hidden;
     
 }
 .hidden_search_input{
@@ -196,9 +198,8 @@ header {
 /* section monthly best sellers */
 .monthybestseller_section {
     padding: 40px 4%;
-    width: 100%;
-    display: flex;  
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
    
 }
 .monthlysellVector{
@@ -214,6 +215,7 @@ header {
 
 .cards {
     width: 90%;
+    margin:auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -479,8 +481,11 @@ header {
 
 
 
-.fa-forward,.fa-backward:hover {
+.fa-forward:hover {
     filter: drop-shadow(2px 3px 5px var(--maincolor));
+}
+.fa-backward:hover{
+    filter: drop-shadow(2px 3px 5px var(--maincolor));  
 }
 
 .just_added_card {
