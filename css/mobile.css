@@ -1,6 +1,76 @@
-@media (max-width:550px){
-    .hidden_search{
-        width: 100%;
-        margin-left:0%;
+@media (max-width:550px) {
+    .search_user {
+        width: 20%;
     }
+
+    .hidden_search {
+        width: 100%;
+
+    }
+
+    .indexpagetxt {
+        width: 90%;
+    }
+
+    .card2,
+    .card7 {
+        display: none;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .first5cards,
+    .secondfivecards {
+        justify-content: center;
+    }
+
+    .subscribe {
+        width: 95%;
+        grid-template-rows: 220px 230px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            " div5 div6  " " div9 div9  "
+        ;
+    }
+    .just_added_card2 {
+        display: none;
+    }
+    
+    .just_added_card {
+        width: 80%;
+    
+    }
+    
+    .justadded_cards {
+        justify-content: center;
+    }
+    
+    .vector_cards {
+        justify-content: center;
+    }
+    .footer_contact_social{
+        flex-direction: column-reverse;
+        
+        gap: 15px;
+    }
+    .footer_contact_div{
+        width: 75%;
+        
+    }
+    .socials_txts{
+        width: 70%;
+    }
+    
+    .fa-forward,.fa-backward{
+        font-size: 20px;
+
+    }
+    
 }
+
+
+
+
+

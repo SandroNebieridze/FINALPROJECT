@@ -47,6 +47,15 @@
     .subscribe {
         width: 85%;
     }
+    .about_us_txt{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .about_us_P{
+        width: 90%;
+    }
 
     .footer_contact_div {
         width: 30%;
@@ -115,9 +124,10 @@
 
     .footerlogo_hidden {
         display: block;
+        
     }
 
-    .low_resolution_footer {
+    .footer_contact_social {
         align-items: flex-start;
 
     }

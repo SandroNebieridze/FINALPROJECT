@@ -452,17 +452,17 @@ header {
     margin: auto;
 }
 
-.justadded_cards {
-    display: flex;
-    justify-content: space-between;
 
-
-}
 
 .vector_cards {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.justadded_cards {
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .justadded_title {
@@ -553,6 +553,7 @@ header {
 .about_us_txt {
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -611,8 +612,9 @@ footer {
 }
 .footerlogo_hidden{
     display: none;
+    width: 100px;
 }
-.low_resolution_footer{
+.footer_contact_social{
     width: 100%;
     display: flex;
     align-items: center;

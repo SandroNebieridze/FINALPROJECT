@@ -26,10 +26,7 @@
     .search_user{
         width: 6%;
     }
-    .hidden_search_div{
-        display: block;
-        margin-left: 50%;
-    }
+   
     .hidden_search{
         visibility: visible;
     }
