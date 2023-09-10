@@ -52,7 +52,7 @@
     }
     .footer_contact_social{
         flex-direction: column-reverse;
-        
+      
         gap: 15px;
     }
     .footer_contact_div{
