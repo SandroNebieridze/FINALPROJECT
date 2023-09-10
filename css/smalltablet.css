@@ -33,6 +33,56 @@
     .about_us {
         width: 90%;
     }
+    /* CATEGORIES */
+    
+    .categories_cover{
+        
+        height: 250px;
+    }
+    @keyframes categories_cover{
+        0% {
+            background-image: url(../images/covertablet.webp);
+    
+        }
+    
+        25% {
+            background-image: url(../images/cover\ 4\ tablet.webp);
+    
+    
+        }
+    
+        50% {
+            background-image: url(../images/cover\ 2\ tablet.webp);
+    
+        }
+    
+        75% {
+            background-image: url(../images/cover\ 1\ tablet.webp);
+    
+    
+        }
+    
+        100% {
+            background-image: url(../images/cover\ 5\ tablet.webp);
+    
+        }
+    
+    }
+    
+    
+    .categories_card4{
+        display: none;
+    }
+    .categories_card{
+        width: 28%;
+    }
+    .browseall{
+        font-size: 20px;
+    }
+
+   
+    
+
 }
 
 @media (max-width:820px) {
@@ -138,4 +188,13 @@
 
     }
 
+    /* CATEGORIES */
+
+    .categories_card3{
+        display: none;
+
+    }
+    .categories_card{
+        width: 40%;
+    }
 }

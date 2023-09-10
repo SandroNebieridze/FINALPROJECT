@@ -4,7 +4,7 @@
     }
 
     .hidden_search {
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -67,7 +67,54 @@
         font-size: 20px;
 
     }
+    /* CATEGORIES */
+    .categories_cover{
+        
+        height: 450px;
+    }
+    @keyframes categories_cover{
+        0% {
+            background-image: url(../images/cover\ mobile.webp);
     
+        }
+    
+        25% {
+            background-image: url(../images/cover\ 4\ mobile.webp);
+    
+    
+        }
+    
+        50% {
+            background-image: url(../images/cover2mobile.avif);
+    
+        }
+    
+        75% {
+            background-image: url(../images/cover\ 1\ mobile.webp);
+    
+    
+        }
+    
+        100% {
+            background-image: url(../images/cover\ 5\ mobile.webp);
+    
+        }
+    
+    }
+    .categories_card2{
+        display: none;
+        
+    } 
+     .categories_card{
+        width: 70%;
+    }
+    .sales_section,.jazz_section,.hiphop{
+        width: 80%;
+    }
+    .categories_titles{
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
 
