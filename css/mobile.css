@@ -115,8 +115,22 @@
         text-align: center;
         margin-left: 0;
     }
+    /* CONTACT */
+    .contact_page_form{
+        width: 90%;
+    }
+    .fullname_email{
+        width: 70%;
+    }
+    .message_area{
+        width: 85%;
+    }
 }
-
+@media (max-width:400px){
+    .map{
+        width: 100%;
+    }
+}
 
 
 

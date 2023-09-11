@@ -124,13 +124,7 @@ header {
     margin-top: 40px;
 }
 
-/* .hidden_search_div{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
-} */
+
 .hidden_search {
     background-image: var(--maincolorblend);
     width: 50%;
@@ -625,6 +619,10 @@ footer {
 .footerlogo_hidden {
     display: none;
     width: 100px;
+    animation-name: footer_logo;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .footer_contact_social {
@@ -932,12 +930,13 @@ footer {
 
 /* CONTACT PAGE */
 
-
+.contact_search{
+    margin: 20px auto 0;
+}
 
 
 .contact_page_form {
     width: 50%;
-
     margin: 30px auto 0;
     display: flex;
     flex-direction: column;
@@ -959,9 +958,9 @@ footer {
 
 .fullname_email {
 
-    width: 40%;
+    width: 45%;
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .conctact_inputt {
@@ -1014,6 +1013,8 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
+
+
 
 .find_us {
     width: 55%;

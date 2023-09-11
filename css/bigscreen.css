@@ -17,6 +17,13 @@
     .footer_contact_div{
         width: 25%;
     }
+    /* CONTACT */
+    .find_us{
+        width: 70%;
+    }
+    .map{
+        width: 50%;
+    }
 }
 @media (max-width:1150px){
     
@@ -67,6 +74,14 @@
         font-size: 14px;
     }
 
+    /* CONTACT */
+    .contact_page_form{
+        width: 70%;
+       }
+       .fullname_email{
+        width: 50%;
+       }
+
 }
 
 @media (max-width:1050px){
@@ -90,6 +105,15 @@
    .sales_section,.jazz_section,.hiphop{
     width: 85%;
 
+   }
+
+   /* CONTACT */
+   .find_us{
+    flex-direction: column-reverse;
+    gap: 20px;
+   }
+   .map{
+    width: 70%;
    }
     
 }

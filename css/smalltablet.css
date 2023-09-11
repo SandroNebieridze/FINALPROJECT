@@ -118,7 +118,23 @@
     .search_user {
         justify-content: center;
     }
+    /* CONTACT */
+    .contact_page_form{
+        width: 80%;
+    }
+    .fullname_email{
+        width: 50%;
+    }
+    .message_area{
+        width: 70%;
+    }
 }
+
+
+
+
+
+
 
 @media (max-width:700px) {
     .mainlogoimg {
@@ -196,5 +212,26 @@
     }
     .categories_card{
         width: 40%;
+    }
+
+    /* CONTACT */
+    .find_us{
+        width: 90%;
+    }
+    .map{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:650px) {
+    .contact_page_form{
+        width: 90%;
+    }
+    .fullname_email{
+        width: 55%;
+    }
+    .message_area{
+        width: 75%;
     }
 }

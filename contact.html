@@ -9,6 +9,9 @@
     <script src="https://kit.fontawesome.com/803c8330e5.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/tab logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bigscreen.css">
+    <link rel="stylesheet" href="css/smalltablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Contact</title>
 </head>
 
@@ -17,15 +20,18 @@
     <div class="container">
         <!-- header -->
         <header>
-            <a href="index.html"><img src="images/Logo.avif" alt="Logo"></a>
 
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            <a href="index.html"><img class="mainlogoimg" src="images/Logo.avif" alt="Logo"></a>
+
+            <nav class="header_nav">
                 <ul class="header_ul">
                     <li><a href="index.html" class="list inactive">Home</a></li>
                     <li><a href="Categories.html" class="list inactive">Categories</a></li>
                     <li><a href="contact.html" class="list active">Contact</a></li>
                 </ul>
             </nav>
+           
             <div class="search_user">
                 <form action="" class="search_bar_form">
                     <input class="search_bar" type="search" name="search" placeholder="What are you looking for?">
@@ -40,10 +46,18 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
             </div>
+
+
+
         </header>
 
         <!-- write us a letter -->
-
+        <form class="hidden_search contact_search" action="">
+            <input class="hidden_search_input" type="search" name="search"
+                placeholder="What are you looking for?">
+            <input class="search_button_hidden" type="image" src="images/charm_search.svg" name="" id="">
+        </form>
+        
 
         <form action="" class="contact_page_form">
             <label for="fullname" class="contact_page_label">Write Us A Letter</label>
@@ -58,7 +72,7 @@
 
 
         </form>
-
+          
         <!-- findus -->
         <h3 class="find_us_title">Find Us</h3>
         
@@ -88,17 +102,19 @@
 <!-- footer -->
 
 <footer>
-
+    <img class="footerlogo_hidden" src="images/vinyl-record-svgrepo-com.svg" alt="">
+   
+  <div class="footer_contact_social">
     <div class="socials_txts">
 
-
+      
         <nav class="footer_nav">
             <ul class="footer_ul">
                 <li><a href="" class="footer_list">Help Center</a></li>
                 <li><a href="" class="footer_list">FAQ</a></li>
                 <li><a href="" class="footer_list">Return Policy</a></li>
                 <li><a href="" class="footer_list">Privacy Policy</a></li>
-                <li><a href="" class="footer_list">Terms of Use</a></li>
+                <li><a href="contact.html" class="footer_list">Terms of Use</a></li>
             </ul>
         </nav>
 
@@ -107,10 +123,10 @@
             <h3 class="social_title">Follow US</h3>
             <div class="SOCIALS">
                 <a target="_blank" href="https://www.facebook.com/">
-                    <img class="social_logo" src="images/logos_facebook.svg" alt="facebooklogo">
+                    <img class="social_logo"  src="images/logos_facebook.svg" alt="facebooklogo">
                 </a>
                 <a target="_blank" href="https://www.instagram.com/">
-                    <img class="social_logo" src="images/skill-icons_instagram.svg" alt="instagramlogo">
+                    <img class="social_logo"  src="images/skill-icons_instagram.svg" alt="instagramlogo">
                 </a>
                 <a target="_blank" href="https://www.youtube.com/">
                     <img class="social_logo" src="images/logos_youtube.svg" alt="youtubelogo">
@@ -150,7 +166,9 @@
         </div>
     </div>
 
+  </div>
 </footer>
+
 
 
 
