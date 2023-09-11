@@ -254,7 +254,7 @@ header {
 
 .card:hover {
     background-color: var(--maincolor);
-    scale: 1.1;
+    scale: 1.07;
 }
 
 .card_image {
@@ -504,12 +504,14 @@ header {
     align-items: center;
     background-image: var(--maincolorblend);
     transition: 1s;
+    
 
 
 }
 
 .just_added_card:hover {
     box-shadow: inset -2px -2px 15px var(--maincolor);
+    scale: 1.03 ;
 }
 
 .justaddimg {
@@ -841,6 +843,7 @@ footer {
 
 .categories_card:hover {
     box-shadow: inset 1px 1px 5px 1px var(--maincolor);
+    scale: 1.03;
 }
 
 .card_image_sale {
