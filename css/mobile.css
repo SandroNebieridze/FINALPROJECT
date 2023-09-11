@@ -1,4 +1,28 @@
 @media (max-width:550px) {
+    
+    .header_nav {
+        background-color: var(--maincolordark);
+        padding: 15px 0;
+        width: 30%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -30%;
+        top: 100px;
+        transition: 0.6s linear;
+    }
+    .active_menu{
+        left:0;
+    }
+    .header_ul {
+        flex-direction: column;
+    }
+
+    .list {
+        color: var(--maincolor);
+    }
+    
     .search_user {
         width: 20%;
     }
@@ -127,9 +151,32 @@
     }
 }
 @media (max-width:400px){
+    .header_nav {
+        background-color: var(--maincolordark);
+        padding: 15px 0;
+        width: 40%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -40%;
+        top: 100px;
+        transition: 0.6s linear;
+    }
+    .active_menu{
+        left:0;
+    }
+    .header_ul {
+        flex-direction: column;
+    }
+
+    .list {
+        color: var(--maincolor);
+    }
     .map{
         width: 100%;
     }
+
 }
 
 
