@@ -33,77 +33,108 @@
     .about_us {
         width: 90%;
     }
+
     /* CATEGORIES */
-    
-    .categories_cover{
-        
+
+    .categories_cover {
+
         height: 250px;
     }
-    @keyframes categories_cover{
+
+    @keyframes categories_cover {
         0% {
             background-image: url(../images/covertablet.webp);
-    
+
         }
-    
+
         25% {
             background-image: url(../images/cover\ 4\ tablet.webp);
-    
-    
+
+
         }
-    
+
         50% {
             background-image: url(../images/cover\ 2\ tablet.webp);
-    
+
         }
-    
+
         75% {
             background-image: url(../images/cover\ 1\ tablet.webp);
-    
-    
+
+
         }
-    
+
         100% {
             background-image: url(../images/cover\ 5\ tablet.webp);
-    
+
         }
-    
+
     }
-    
-    
-    .categories_card4{
+
+
+    .categories_card4 {
         display: none;
     }
-    .categories_card{
+
+    .categories_card {
         width: 28%;
     }
-    .browseall{
+
+    .browseall {
         font-size: 20px;
     }
 
-   
-    
+
+
 
 }
 
 @media (max-width:820px) {
+
     .fa-bars {
         display: block;
     }
 
     .header_nav {
-        display: none;
+        background-color: var(--maincolordark);
+        padding: 15px 0;
+        width: 20%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -20%;
+        top: 100px;
+        transition: 0.6s linear;
+    }
+
+    .header_ul {
+        flex-direction: column;
+    }
+
+    .list {
+        color: var(--maincolor);
+    }
+
+    .active {
+        border-bottom: 2px solid var(--maincolor);
+    }
+    .active_menu{
+        left:0;
     }
 
     .subscribe {
         width: 85%;
     }
-    .about_us_txt{
+
+    .about_us_txt {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
-    .about_us_P{
+
+    .about_us_P {
         width: 90%;
     }
 
@@ -118,14 +149,17 @@
     .search_user {
         justify-content: center;
     }
+
     /* CONTACT */
-    .contact_page_form{
+    .contact_page_form {
         width: 80%;
     }
-    .fullname_email{
+
+    .fullname_email {
         width: 50%;
     }
-    .message_area{
+
+    .message_area {
         width: 70%;
     }
 }
@@ -190,7 +224,7 @@
 
     .footerlogo_hidden {
         display: block;
-        
+
     }
 
     .footer_contact_social {
@@ -206,32 +240,36 @@
 
     /* CATEGORIES */
 
-    .categories_card3{
+    .categories_card3 {
         display: none;
 
     }
-    .categories_card{
+
+    .categories_card {
         width: 40%;
     }
 
     /* CONTACT */
-    .find_us{
+    .find_us {
         width: 90%;
     }
-    .map{
+
+    .map {
         width: 80%;
     }
-    
+
 }
 
 @media (max-width:650px) {
-    .contact_page_form{
+    .contact_page_form {
         width: 90%;
     }
-    .fullname_email{
+
+    .fullname_email {
         width: 55%;
     }
-    .message_area{
+
+    .message_area {
         width: 75%;
     }
 }

@@ -82,12 +82,13 @@ header {
     gap: 15px;
 }
 
-.fa-bars {
+.fa-bars, .fa-xmark {
     font-size: 25px;
     color: var(--maincolordark);
     display: none;
 
 }
+
 
 .fa-user,
 .fa-cart-shopping {
